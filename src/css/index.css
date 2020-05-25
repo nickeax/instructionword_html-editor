@@ -1,0 +1,38 @@
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 120, 206);
+}
+
+.container {
+  margin: 0 auto;
+  width: 90vw;
+  height: 100vh;
+  background-color: #eee;
+  box-shadow: 0 0 17px rgba(0, 61, 117, 0.739);
+}
+
+#input, #output {
+  color: #333;
+  width: 100%;
+  padding: 1rem;
+  border: solid 1px #ddd;
+  overflow-y: scroll;
+}
+#input {
+/*   margin: 0 auto; */  
+  height: 40%;
+  background-color: #eee;
+}
+
+#output {
+  border: solid 1px #aaa;
+}
+
+textarea:active {
+  outline-color: none;
+}
